@@ -11,7 +11,7 @@ function App() {
 	function removeTour(tourID) {
         setTours((oldstate)=>{
            return oldstate.filter((item)=>{
-                return item.id!=tourID
+                return item.id!==tourID
             })
         })
 	}

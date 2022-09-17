@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const Tour = (props) => {
-	const { id, image, info, price, name, removeTour } = props
+	const { id, image, info, price, name } = props
 
 	const [readMore, setReadMore] = useState(true)
 
