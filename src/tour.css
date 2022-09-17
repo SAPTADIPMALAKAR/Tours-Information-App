@@ -1,0 +1,14 @@
+section{
+    text-align: center;
+ 
+}
+
+hr{
+    width: 80%;
+    height: 1rem;
+    margin: 1rem auto;
+    background-color: hsl(205, 78%, 60%);
+    color: transparent;
+    border-radius: 10%;
+    margin-bottom: 4rem;
+}
